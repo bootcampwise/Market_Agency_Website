@@ -1,0 +1,59 @@
+{
+  "id": "services_page",
+  "label": "Services Page",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "hero_title": {
+        "type": "Text",
+        "config": {
+          "label": "Hero Title",
+          "placeholder": "Our Services"
+        }
+      },
+      "hero_description": {
+        "type": "Text",
+        "config": {
+          "label": "Hero Description",
+          "placeholder": "At Positivus, we offer a comprehensive range..."
+        }
+      },
+      "cta_title": {
+        "type": "Text",
+        "config": {
+          "label": "CTA Title",
+          "placeholder": "Ready to transform your digital presence?"
+        }
+      },
+      "cta_description": {
+        "type": "Text",
+        "config": {
+          "label": "CTA Description",
+          "placeholder": "Contact us today to discuss your digital marketing needs..."
+        }
+      },
+      "cta_button_text": {
+        "type": "Text",
+        "config": {
+          "label": "CTA Button Text",
+          "placeholder": "Get in touch"
+        }
+      },
+      "cta_button_link": {
+        "type": "Text",
+        "config": {
+          "label": "CTA Button Link",
+          "placeholder": "/contact"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "id": "social_media_marketing",
+  "label": "Social Media Marketing",
+  "repeatable": false,
+  "status": true,
+  "format": "custom",
+  "json": {
+    "Main": {
+      "hero_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Hero Title",
+          "placeholder": "Top Line Growth Through Enhanced Digital Presence",
+          "single": "heading1"
+        }
+      },
+      "hero_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Hero Description",
+          "placeholder": "Technology makes us fast. Empathy makes us human...",
+          "multi": "paragraph"
+        }
+      },
+      "hero_button_text": {
+        "type": "Text",
+        "config": {
+          "label": "Hero Button Text",
+          "placeholder": "Let's connect"
+        }
+      },
+      "hero_button_link": {
+        "type": "Link",
+        "config": {
+          "label": "Hero Button Link",
+          "placeholder": "Add link"
+        }
+      },
+      "hero_image": {
+        "type": "Image",
+        "config": {
+          "label": "Hero Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "philosophy_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Philosophy Title",
+          "placeholder": "Tech + Human Empathy = Creativity",
+          "single": "heading2"
+        }
+      },
+      "philosophy_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Philosophy Description",
+          "placeholder": "We leverage our deep understanding...",
+          "multi": "paragraph"
+        }
+      },
+      "services_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Services Section Title",
+          "placeholder": "Digital marketing services",
+          "single": "heading2"
+        }
+      },
+      "banner_items": {
+        "type": "Group",
+        "config": {
+          "label": "Banner Items",
+          "fields": {
+            "item_text": {
+              "type": "Text",
+              "config": {
+                "label": "Item Text",
+                "placeholder": "SERVICES"
+              }
+            }
+          }
+        }
+      },
+      "service_icons": {
+        "type": "Group",
+        "config": {
+          "label": "Service Icons",
+          "fields": {
+            "icon_image": {
+              "type": "Image",
+              "config": {
+                "label": "Icon Image",
+                "constraint": {},
+                "thumbnails": []
+              }
+            },
+            "icon_label": {
+              "type": "Text",
+              "config": {
+                "label": "Icon Label",
+                "placeholder": "Strategy"
+              }
+            }
+          }
+        }
+      },
+      "service_sections": {
+        "type": "Group",
+        "config": {
+          "label": "Service Detail Sections",
+          "fields": {
+            "section_title": {
+              "type": "Text",
+              "config": {
+                "label": "Section Title",
+                "placeholder": "Strategy"
+              }
+            },
+            "section_description": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Section Description",
+                "placeholder": "We design and develop meaningful strategies...",
+                "multi": "paragraph"
+              }
+            },
+            "section_features": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Section Features",
+                "placeholder": "Add features as list items",
+                "multi": "paragraph,list-item,o-list-item"
+              }
+            },
+            "section_image": {
+              "type": "Image",
+              "config": {
+                "label": "Section Image",
+                "constraint": {},
+                "thumbnails": []
+              }
+            }
+          }
+        }
+      },
+      "partner_text_line1": {
+        "type": "Text",
+        "config": {
+          "label": "Partner Banner Text Line 1",
+          "placeholder": "For social media marketing"
+        }
+      },
+      "partner_text_line2": {
+        "type": "Text",
+        "config": {
+          "label": "Partner Banner Text Line 2",
+          "placeholder": "connect with our partner"
+        }
+      },
+      "partner_logo": {
+        "type": "Image",
+        "config": {
+          "label": "Partner Logo",
+          "constraint": {
+            "width": 101,
+            "height": 72
+          },
+          "thumbnails": []
+        }
+      },
+      "partner_link": {
+        "type": "Link",
+        "config": {
+          "label": "Partner Link",
+          "placeholder": "Add partner link"
+        }
+      },
+      "case_studies_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Case Studies Title",
+          "placeholder": "Digital marketing case studies",
+          "single": "heading2"
+        }
+      },
+      "case_studies": {
+        "type": "Group",
+        "config": {
+          "label": "Case Studies",
+          "fields": {
+            "case_study_image": {
+              "type": "Image",
+              "config": {
+                "label": "Case Study Image",
+                "constraint": {
+                  "width": 310,
+                  "height": 184
+                },
+                "thumbnails": []
+              }
+            },
+            "case_study_name": {
+              "type": "Text",
+              "config": {
+                "label": "Case Study Name",
+                "placeholder": "McDermott Will & Emery"
+              }
+            },
+            "case_study_category": {
+              "type": "Text",
+              "config": {
+                "label": "Category",
+                "placeholder": "LEGAL"
+              }
+            },
+            "case_study_link": {
+              "type": "Link",
+              "config": {
+                "label": "Case Study Link",
+                "placeholder": "Add link"
+              }
+            }
+          }
+        }
+      },
+      "cta_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "CTA Title",
+          "placeholder": "Meaningful work. Outstanding results.",
+          "single": "heading2"
+        }
+      },
+      "cta_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "CTA Description",
+          "placeholder": "Award-winning digital development company...",
+          "multi": "paragraph"
+        }
+      },
+      "cta_button_text": {
+        "type": "Text",
+        "config": {
+          "label": "CTA Button Text",
+          "placeholder": "Let's connect"
+        }
+      },
+      "cta_button_link": {
+        "type": "Link",
+        "config": {
+          "label": "CTA Button Link",
+          "placeholder": "Add link"
+        }
+      },
+      "clients_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Clients Section Title",
+          "placeholder": "You are in great company",
+          "single": "heading2"
+        }
+      },
+      "client_logos": {
+        "type": "Group",
+        "config": {
+          "label": "Client Logos",
+          "fields": {
+            "client_logo": {
+              "type": "Image",
+              "config": {
+                "label": "Client Logo",
+                "constraint": {},
+                "thumbnails": []
+              }
+            },
+            "client_name": {
+              "type": "Text",
+              "config": {
+                "label": "Client Name",
+                "placeholder": "Client Name"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

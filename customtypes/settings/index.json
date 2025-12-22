@@ -1,0 +1,127 @@
+{
+  "id": "settings",
+  "label": "Settings",
+  "repeatable": false,
+  "status": true,
+  "format": "custom",
+  "json": {
+    "Main": {
+      "header_logo": {
+        "config": {
+          "label": "Header Logo",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "nav_links": {
+        "config": {
+          "label": "Navigation Links",
+          "fields": {
+            "label": {
+              "config": {
+                "label": "Label",
+                "placeholder": "Link Label"
+              },
+              "type": "Text"
+            },
+            "link": {
+              "config": {
+                "label": "Link",
+                "placeholder": "Link URL",
+                "allowTargetBlank": true,
+                "select": null
+              },
+              "type": "Link"
+            }
+          }
+        },
+        "type": "Group"
+      },
+      "cta_text": {
+        "config": {
+          "label": "CTA Text",
+          "placeholder": "Request a quote"
+        },
+        "type": "Text"
+      },
+      "cta_link": {
+        "config": {
+          "label": "CTA Link",
+          "placeholder": "Link URL",
+          "allowTargetBlank": true,
+          "select": null
+        },
+        "type": "Link"
+      },
+      "footer_logo": {
+        "config": {
+          "label": "Footer Logo",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "social_links": {
+        "config": {
+          "label": "Social Links",
+          "fields": {
+            "icon": {
+              "config": {
+                "label": "Icon",
+                "constraint": {},
+                "thumbnails": []
+              },
+              "type": "Image"
+            },
+            "link": {
+              "config": {
+                "label": "Link",
+                "placeholder": "Social Link URL",
+                "allowTargetBlank": true,
+                "select": null
+              },
+              "type": "Link"
+            }
+          }
+        },
+        "type": "Group"
+      },
+      "contact_email": {
+        "config": {
+          "label": "Contact Email",
+          "placeholder": "info@positivus.com"
+        },
+        "type": "Text"
+      },
+      "contact_phone": {
+        "config": {
+          "label": "Contact Phone",
+          "placeholder": "555-567-8901"
+        },
+        "type": "Text"
+      },
+      "contact_address": {
+        "config": {
+          "label": "Contact Address",
+          "placeholder": "1234 Main St..."
+        },
+        "type": "Text"
+      },
+      "contact_address2": {
+        "config": {
+          "label": "Contact Address 2",
+          "placeholder": "Moonstone City, Stardust State 12345"
+        },
+        "type": "Text"
+      },
+      "copyright_text": {
+        "config": {
+          "label": "Copyright Text",
+          "placeholder": "© 2023 Positivus. All Rights Reserved."
+        },
+        "type": "Text"
+      }
+    }
+  }
+}

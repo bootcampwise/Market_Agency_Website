@@ -1,0 +1,88 @@
+{
+  "id": "pricing",
+  "label": "Pricing",
+  "repeatable": false,
+  "status": true,
+  "format": "custom",
+  "json": {
+    "Main": {
+      "hero_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Hero Title",
+          "placeholder": "Designed for business teams like yours",
+          "single": "heading1"
+        }
+      },
+      "hero_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Hero Description",
+          "placeholder": "Here at Positivus we focus on markets...",
+          "multi": "paragraph"
+        }
+      },
+      "pricing_tiers": {
+        "type": "Group",
+        "config": {
+          "label": "Pricing Tiers",
+          "fields": {
+            "tier_name": {
+              "type": "Text",
+              "config": {
+                "label": "Tier Name",
+                "placeholder": "Starter"
+              }
+            },
+            "tier_description": {
+              "type": "Text",
+              "config": {
+                "label": "Tier Description",
+                "placeholder": "Best option for personal use & for your individual business"
+              }
+            },
+            "price": {
+              "type": "Number",
+              "config": {
+                "label": "Price",
+                "placeholder": "29"
+              }
+            },
+            "features": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Features",
+                "placeholder": "Add features",
+                "allowTargetBlank": true,
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "is_popular": {
+              "type": "Boolean",
+              "config": {
+                "label": "Is Popular",
+                "placeholder_false": "No",
+                "placeholder_true": "Yes",
+                "default_value": false
+              }
+            },
+            "price_suffix": {
+              "type": "Text",
+              "config": {
+                "label": "Price Suffix",
+                "placeholder": "/month"
+              }
+            },
+            "button_text": {
+              "type": "Text",
+              "config": {
+                "label": "Button Text",
+                "placeholder": "Get Started"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

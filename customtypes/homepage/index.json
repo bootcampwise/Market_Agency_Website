@@ -1,0 +1,468 @@
+{
+  "id": "homepage",
+  "label": "Homepage",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "hero_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Hero Title",
+          "placeholder": "Navigating the digital landscape...",
+          "allowTargetBlank": true,
+          "single": "heading1"
+        }
+      },
+      "hero_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Hero Description",
+          "placeholder": "Our digital marketing agency helps...",
+          "allowTargetBlank": true,
+          "multi": "paragraph"
+        }
+      },
+      "hero_button_text": {
+        "type": "Text",
+        "config": {
+          "label": "Hero Button Text",
+          "placeholder": "Book a consultation"
+        }
+      },
+      "hero_image": {
+        "type": "Image",
+        "config": {
+          "label": "Hero Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      }
+    },
+    "Services": {
+      "services_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Section Title",
+          "placeholder": "Services",
+          "allowTargetBlank": true,
+          "single": "heading2"
+        }
+      },
+      "services_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Section Description",
+          "placeholder": "At our digital marketing agency...",
+          "allowTargetBlank": true,
+          "multi": "paragraph"
+        }
+      },
+      "services": {
+        "type": "Group",
+        "config": {
+          "label": "Services List",
+          "fields": {
+            "name": {
+              "type": "Text",
+              "config": {
+                "label": "Service Name",
+                "placeholder": "Search engine optimization"
+              }
+            },
+            "subtitle": {
+              "type": "Text",
+              "config": {
+                "label": "Service Subtitle",
+                "placeholder": "Boost your online visibility"
+              }
+            },
+            "icon": {
+              "type": "Text",
+              "config": {
+                "label": "Icon (Emoji)",
+                "placeholder": "🔎"
+              }
+            },
+            "image": {
+              "type": "Image",
+              "config": {
+                "label": "Service Image",
+                "constraint": {},
+                "thumbnails": []
+              }
+            },
+            "background_color": {
+              "type": "Select",
+              "config": {
+                "label": "Background Color",
+                "options": ["bg-gray-light", "bg-primary", "bg-dark"],
+                "default_value": "bg-gray-light"
+              }
+            },
+            "title_background_color": {
+              "type": "Select",
+              "config": {
+                "label": "Title Background Color",
+                "options": ["bg-primary", "bg-white"],
+                "default_value": "bg-primary"
+              }
+            },
+            "what_we_offer": {
+              "type": "StructuredText",
+              "config": {
+                "label": "What we offer",
+                "placeholder": "We optimize your website...",
+                "allowTargetBlank": true,
+                "multi": "paragraph"
+              }
+            },
+            "cta_text": {
+              "type": "Text",
+              "config": {
+                "label": "CTA Text",
+                "placeholder": "Get SEO Audit"
+              }
+            },
+            "cta_link": {
+              "type": "Link",
+              "config": {
+                "label": "CTA Link",
+                "placeholder": "Link to service page..."
+              }
+            },
+            "benefits": {
+              "type": "Group",
+              "config": {
+                "label": "Benefits",
+                "fields": {
+                  "benefit": {
+                    "type": "Text",
+                    "config": {
+                      "label": "Benefit",
+                      "placeholder": "Increased organic traffic"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Case Studies": {
+      "case_studies_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Section Title",
+          "placeholder": "Case Studies",
+          "allowTargetBlank": true,
+          "single": "heading2"
+        }
+      },
+      "case_studies_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Section Description",
+          "placeholder": "Explore Real-Life Examples...",
+          "allowTargetBlank": true,
+          "multi": "paragraph"
+        }
+      },
+      "case_studies": {
+        "type": "Group",
+        "config": {
+          "label": "Case Studies List",
+          "fields": {
+            "description": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Description",
+                "placeholder": "For a local restaurant...",
+                "allowTargetBlank": true,
+                "multi": "paragraph"
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "Learn more link..."
+              }
+            },
+            "link_label": {
+              "type": "Text",
+              "config": {
+                "label": "Link Label",
+                "placeholder": "Learn more"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Process": {
+      "process_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Section Title",
+          "placeholder": "Our Working Process",
+          "allowTargetBlank": true,
+          "single": "heading2"
+        }
+      },
+      "process_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Section Description",
+          "placeholder": "Step-by-Step Guide...",
+          "allowTargetBlank": true,
+          "multi": "paragraph"
+        }
+      },
+      "process_steps": {
+        "type": "Group",
+        "config": {
+          "label": "Process Steps",
+          "fields": {
+            "number": {
+              "type": "Text",
+              "config": {
+                "label": "Step Number",
+                "placeholder": "01"
+              }
+            },
+            "title": {
+              "type": "Text",
+              "config": {
+                "label": "Step Title",
+                "placeholder": "Consultation"
+              }
+            },
+            "description": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Description",
+                "placeholder": "During the initial consultation...",
+                "allowTargetBlank": true,
+                "multi": "paragraph"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Team": {
+      "team_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Section Title",
+          "placeholder": "Team",
+          "allowTargetBlank": true,
+          "single": "heading2"
+        }
+      },
+      "team_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Section Description",
+          "placeholder": "Meet the skilled...",
+          "allowTargetBlank": true,
+          "multi": "paragraph"
+        }
+      },
+      "team_members": {
+        "type": "Group",
+        "config": {
+          "label": "Team Members",
+          "fields": {
+            "name": {
+              "type": "Text",
+              "config": {
+                "label": "Name",
+                "placeholder": "John Smith"
+              }
+            },
+            "role": {
+              "type": "Text",
+              "config": {
+                "label": "Role",
+                "placeholder": "CEO and Founder"
+              }
+            },
+            "experience": {
+              "type": "Text",
+              "config": {
+                "label": "Experience",
+                "placeholder": "10+ years..."
+              }
+            },
+            "avatar": {
+              "type": "Image",
+              "config": {
+                "label": "Avatar",
+                "constraint": {},
+                "thumbnails": []
+              }
+            }
+          }
+        }
+      }
+    },
+    "Testimonials": {
+      "testimonials_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Section Title",
+          "placeholder": "Testimonials",
+          "allowTargetBlank": true,
+          "single": "heading2"
+        }
+      },
+      "testimonials_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Section Description",
+          "placeholder": "Hear from Our Satisfied Clients...",
+          "allowTargetBlank": true,
+          "multi": "paragraph"
+        }
+      },
+      "testimonials": {
+        "type": "Group",
+        "config": {
+          "label": "Testimonials List",
+          "fields": {
+            "quote": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Quote",
+                "placeholder": "We have been working...",
+                "allowTargetBlank": true,
+                "multi": "paragraph"
+              }
+            },
+            "author": {
+              "type": "Text",
+              "config": {
+                "label": "Author Name",
+                "placeholder": "John Smith"
+              }
+            },
+            "position": {
+              "type": "Text",
+              "config": {
+                "label": "Author Position",
+                "placeholder": "Marketing Director at XYZ Corp"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Client Logos": {
+      "client_logos_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Section Title",
+          "placeholder": "Our Clients",
+          "allowTargetBlank": true,
+          "single": "heading2"
+        }
+      },
+      "client_logos": {
+        "type": "Group",
+        "config": {
+          "label": "Client Logos",
+          "fields": {
+            "logo": {
+              "type": "Image",
+              "config": {
+                "label": "Client Logo",
+                "constraint": {},
+                "thumbnails": []
+              }
+            },
+            "client_name": {
+              "type": "Text",
+              "config": {
+                "label": "Client Name",
+                "placeholder": "Company Name"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Contact": {
+      "contact_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Section Title",
+          "placeholder": "Contact Us",
+          "allowTargetBlank": true,
+          "single": "heading2"
+        }
+      },
+      "contact_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Section Description",
+          "placeholder": "Connect with Us...",
+          "allowTargetBlank": true,
+          "multi": "paragraph"
+        }
+      },
+      "contact_image": {
+        "type": "Image",
+        "config": {
+          "label": "Contact Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      }
+    },
+    "CTA": {
+      "cta_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "CTA Title",
+          "placeholder": "Let's make things happen",
+          "allowTargetBlank": true,
+          "single": "heading2"
+        }
+      },
+      "cta_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "CTA Description",
+          "placeholder": "Contact us today to learn more...",
+          "allowTargetBlank": true,
+          "multi": "paragraph"
+        }
+      },
+      "cta_button_text": {
+        "type": "Text",
+        "config": {
+          "label": "CTA Button Text",
+          "placeholder": "Get your free proposal"
+        }
+      },
+      "cta_button_link": {
+        "type": "Link",
+        "config": {
+          "label": "CTA Button Link",
+          "placeholder": "Link to contact or proposal page"
+        }
+      },
+      "cta_image": {
+        "type": "Image",
+        "config": {
+          "label": "CTA Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      }
+    }
+  }
+}

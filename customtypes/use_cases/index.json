@@ -1,0 +1,200 @@
+{
+  "id": "use_cases",
+  "label": "Use Cases",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "hero_logo": {
+        "type": "Image",
+        "config": {
+          "label": "Hero Logo",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "hero_subheading": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Hero Subheading",
+          "placeholder": "Easly Partners with HawkSEM...",
+          "multi": "paragraph"
+        }
+      },
+      "hero_heading": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Hero Heading",
+          "placeholder": "CAPITAL-AS-A-SERVICE...",
+          "single": "heading1"
+        }
+      },
+      "description_text": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Description Text",
+          "multi": "paragraph"
+        }
+      },
+      "goal_title": {
+        "type": "Text",
+        "config": {
+          "label": "Goal Title",
+          "placeholder": "The Goal"
+        }
+      },
+      "goal_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Goal Description",
+          "multi": "paragraph"
+        }
+      },
+      "challenge_title": {
+        "type": "Text",
+        "config": {
+          "label": "Challenge Title",
+          "placeholder": "The Challenge"
+        }
+      },
+      "challenge_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Challenge Description",
+          "multi": "paragraph"
+        }
+      },
+      "challenge_image": {
+        "type": "Image",
+        "config": {
+          "label": "Challenge Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "results_title": {
+        "type": "Text",
+        "config": {
+          "label": "Results Title",
+          "placeholder": "The Results"
+        }
+      },
+      "results_list": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Results List",
+          "multi": "paragraph"
+        }
+      },
+      "results_image": {
+        "type": "Image",
+        "config": {
+          "label": "Results Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "solution_cards": {
+        "type": "Group",
+        "config": {
+          "label": "Solution Cards",
+          "fields": {
+            "icon": {
+              "type": "Image",
+              "config": {
+                "label": "Icon",
+                "constraint": {},
+                "thumbnails": []
+              }
+            },
+            "description": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Description",
+                "multi": "paragraph"
+              }
+            },
+            "background_color": {
+              "type": "Select",
+              "config": {
+                "label": "Background Color",
+                "options": ["primary", "gray", "white"],
+                "default_value": "primary"
+              }
+            }
+          }
+        }
+      },
+      "solution_title": {
+        "type": "Text",
+        "config": {
+          "label": "Solution Title",
+          "placeholder": "The Solution"
+        }
+      },
+      "solution_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Solution Description",
+          "multi": "paragraph"
+        }
+      },
+      "solution_image": {
+        "type": "Image",
+        "config": {
+          "label": "Solution Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "impact_title": {
+        "type": "Text",
+        "config": {
+          "label": "Impact Title",
+          "placeholder": "The Impact"
+        }
+      },
+      "impact_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Impact Description",
+          "multi": "paragraph"
+        }
+      },
+      "impact_image": {
+        "type": "Image",
+        "config": {
+          "label": "Impact Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "cta_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "CTA Title",
+          "single": "heading2"
+        }
+      },
+      "cta_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "CTA Description",
+          "multi": "paragraph"
+        }
+      },
+      "cta_button_text": {
+        "type": "Text",
+        "config": {
+          "label": "CTA Button Text"
+        }
+      },
+      "cta_button_link": {
+        "type": "Link",
+        "config": {
+          "label": "CTA Button Link"
+        }
+      }
+    }
+  }
+}

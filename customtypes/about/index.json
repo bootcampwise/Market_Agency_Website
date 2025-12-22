@@ -1,0 +1,35 @@
+{
+  "id": "about",
+  "label": "About",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "hero_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Hero Title",
+          "placeholder": "We Navigate the digital landscape for success",
+          "allowTargetBlank": true,
+          "single": "heading1"
+        }
+      },
+      "hero_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Hero Description",
+          "placeholder": "Our digital marketing agency helps businesses...",
+          "allowTargetBlank": true,
+          "multi": "paragraph"
+        }
+      },
+      "hero_button_text": {
+        "type": "Text",
+        "config": {
+          "label": "Hero Button Text",
+          "placeholder": "Book a consultation"
+        }
+      }
+    }
+  }
+}
