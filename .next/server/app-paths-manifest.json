@@ -1,16 +1,9 @@
 {
-  "/_not-found": "app/_not-found.js",
-  "/api/contact/route": "app/api/contact/route.js",
-  "/about/page": "app/about/page.js",
-  "/case-studies/page": "app/case-studies/page.js",
-  "/case-studies/[uid]/page": "app/case-studies/[uid]/page.js",
-  "/pricing/page": "app/pricing/page.js",
-  "/services/[uid]/page": "app/services/[uid]/page.js",
-  "/blogs/page": "app/blogs/page.js",
-  "/services/page": "app/services/page.js",
   "/icon.png/route": "app/icon.png/route.js",
   "/page": "app/page.js",
-  "/services/social-media-marketing/page": "app/services/social-media-marketing/page.js",
+  "/services/page": "app/services/page.js",
   "/use-cases/page": "app/use-cases/page.js",
-  "/blogs/[uid]/page": "app/blogs/[uid]/page.js"
+  "/about/page": "app/about/page.js",
+  "/blogs/page": "app/blogs/page.js",
+  "/pricing/page": "app/pricing/page.js"
 }
