@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { PrismicNextImage } from '@prismicio/next'
 import { PrismicLink, PrismicRichText } from '@prismicio/react'
 import { SettingsDocument } from '@/prismicio-types'
+import NewsletterForm from './NewsletterForm'
 
 interface FooterProps {
   settings?: SettingsDocument | null
@@ -83,16 +84,7 @@ export default function Footer({ settings }: FooterProps) {
             </div>
 
             <div className="flex justify-center rounded-xl bg-[#292A32] p-6 lg:p-8">
-              <div className="m-auto flex flex-col gap-4 sm:flex-row">
-                <input
-                  type="email"
-                  placeholder="Email"
-                  className="flex-1 rounded-[14px] border border-white bg-transparent px-6 py-4 text-white placeholder-white focus:border-primary focus:bg-transparent focus:outline-none"
-                />
-                <button className="whitespace-nowrap rounded-[14px] bg-primary px-6 py-4 text-xl font-normal text-dark transition-colors hover:bg-primary/90">
-                  Subscribe to news
-                </button>
-              </div>
+              <NewsletterForm />
             </div>
           </div>
 

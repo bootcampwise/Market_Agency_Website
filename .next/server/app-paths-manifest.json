@@ -1,9 +1,11 @@
 {
-  "/icon.png/route": "app/icon.png/route.js",
+  "/not-found": "app/not-found.js",
   "/page": "app/page.js",
-  "/services/page": "app/services/page.js",
-  "/use-cases/page": "app/use-cases/page.js",
-  "/about/page": "app/about/page.js",
+  "/icon.png/route": "app/icon.png/route.js",
+  "/pricing/page": "app/pricing/page.js",
+  "/blogs/[uid]/page": "app/blogs/[uid]/page.js",
   "/blogs/page": "app/blogs/page.js",
-  "/pricing/page": "app/pricing/page.js"
+  "/services/social-media-marketing/page": "app/services/social-media-marketing/page.js",
+  "/about/page": "app/about/page.js",
+  "/services/page": "app/services/page.js"
 }

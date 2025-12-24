@@ -1,6 +1,16 @@
 import { createClient } from '@/prismicio'
 import { PrismicRichText, PrismicImage, PrismicLink } from '@prismicio/react'
 import Image from 'next/image'
+import { SocialMediaMarketingDocument } from '@/prismicio-types'
+import { KeyTextField } from '@prismicio/client'
+
+type BannerItem = {
+  item_text: KeyTextField
+}
+
+type SocialMediaMarketingData = SocialMediaMarketingDocument['data'] & {
+  banner_items: BannerItem[]
+}
 
 export default async function SocialMediaMarketingPage() {
   const client = createClient()
@@ -54,20 +64,25 @@ export default async function SocialMediaMarketingPage() {
           <div className="overflow-hidden">
             <div className="w-full rounded-lg bg-primary py-3">
               <div className="flex items-center gap-5 whitespace-nowrap px-8 text-xs font-bold tracking-widest text-dark lg:ml-[250px]">
-                {(page.data as any).banner_items && (page.data as any).banner_items.length > 0 && (
-                  (page.data as any).banner_items.map((item: any, index: number) => (
-                    <span key={index} className="flex items-center">
-                      <span>{item.item_text}</span>
-                      <Image
-                        src="/separator-icon.png"
-                        alt=""
-                        width={10}
-                        height={12}
-                        className="inline-block ms-[2px]"
-                      />
-                    </span>
-                  ))
-                )}
+                {(() => {
+                  const data = page.data as SocialMediaMarketingData
+                  return (
+                    data.banner_items &&
+                    data.banner_items.length > 0 &&
+                    data.banner_items.map((item, index) => (
+                      <span key={index} className="flex items-center">
+                        <span>{item.item_text}</span>
+                        <Image
+                          src="/separator-icon.png"
+                          alt=""
+                          width={10}
+                          height={12}
+                          className="inline-block ms-[2px]"
+                        />
+                      </span>
+                    ))
+                  )
+                })()}
               </div>
             </div>
 

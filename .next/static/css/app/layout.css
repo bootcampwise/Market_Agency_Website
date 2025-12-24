@@ -1813,9 +1813,17 @@ body{
   --tw-text-opacity: 1;
   color: rgb(120 120 120 / var(--tw-text-opacity, 1));
 }
+.text-green-600{
+  --tw-text-opacity: 1;
+  color: rgb(22 163 74 / var(--tw-text-opacity, 1));
+}
 .text-primary{
   --tw-text-opacity: 1;
   color: rgb(185 255 102 / var(--tw-text-opacity, 1));
+}
+.text-red-500{
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
 }
 .text-teal-600{
   --tw-text-opacity: 1;
@@ -2074,6 +2082,10 @@ body{
 
 .disabled\:opacity-50:disabled{
   opacity: 0.5;
+}
+
+.disabled\:opacity-70:disabled{
+  opacity: 0.7;
 }
 
 @media (min-width: 640px){
